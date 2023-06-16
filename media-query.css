@@ -1,0 +1,9 @@
+@media screen and (max-width:1024px){
+    .nav-toggle{
+        display:block;
+        margin-right: 20px;
+    }
+    .box2{
+        display: none;
+    }
+}

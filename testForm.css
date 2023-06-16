@@ -1,0 +1,30 @@
+.custom-form {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .custom-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .custom-form input[type="text"],
+  .custom-form input[type="tel"],
+  .custom-form input[type="number"],
+  .custom-form input[type="email"],
+  .custom-form input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .custom-form input[type="submit"] {
+    cursor: pointer;
+    background-color: magenta;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
